@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: rgb(218, 201, 201);
+    font-family: 'Poppins', sans-serif;
+    border: 11px solid rgb(2, 2, 2);
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end;  
+}
+.image-section ,img {
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.top h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 11px;
+    color: rgb(149, 92, 6);
+}
+.top h4{
+    text-align: end;
+}
+.about{
+    margin-top: 50px;
+}
+.about h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(149, 92, 6);
+}
+.about p{
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    font-weight: 500;
+}
+.books{
+    margin-top: 30px;
+}
+.books h3{
+    color: rgb(149, 92, 6);
+}
+ .books ul{
+    margin-top: 20px;
+}
+
+.books li{
+    margin-left: 60px;
+    margin-bottom:10px;
+}
+
+.books li:hover{
+    color: rgb(149, 92, 6);
+    cursor: pointer; 
+    transition: 0.2s;
+}
+
+.quotes{
+    margin-top: 30px;
+}
+
+.quotes h3{
+    color: rgb(149, 92, 6);
+}
+
+.quote-container {
+    background-color: #3c393948;
+    border-left: 5px solid #e4900a;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    box-shadow: 0 8px 16px rgba(255, 248, 248, 0.2);  
+  }
+  
+  .quote {
+    font-style: italic;
+  }
+  .quote-container:hover {
+    transform: scale(1.05);  
+    transition: 0.2s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  
+  }
+  
+  .bottom{
+    margin: 30px 30px;
+  }
+  .bottom p{
+    text-align: end;
+    font-style: italic;
+  }
+
+.bottom a{
+    text-decoration: none;
+    color: rgb(149, 92, 6);
+    font-weight: 600;
+}
+.bottom a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: larger;
+}
